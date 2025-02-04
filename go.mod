@@ -1,4 +1,4 @@
-module github.com/kunal697/clishare
+module github.com/kunal697/cshare
 
 go 1.23.3
 
