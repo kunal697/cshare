@@ -2,6 +2,8 @@
 
 A modern terminal-based file sharing application with an intuitive interface.
 
+[Watch Demo Video](https://youtu.be/Pk5-niWJn6U)
+
 ## Features
 
 - 🖥️ Interactive Terminal UI
