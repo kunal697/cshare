@@ -449,7 +449,7 @@ func renderMenu(cursor int) string {
 // fetchFiles fetches files from the server and stores the auth token.
 func fetchFiles(siteName, password string) tea.Cmd {
 	return func() tea.Msg {
-		url := fmt.Sprintf("http://localhost:8080/site/%s?password=%s", siteName, password)
+		url := fmt.Sprintf("https://filesharingcli-production.up.railway.app/site/%s?password=%s", siteName, password)
 		resp, err := http.Get(url)
 		if err != nil {
 			return fmt.Errorf("error connecting to server: %v", err)
@@ -511,7 +511,7 @@ func createSite(siteName, password string) tea.Cmd {
 		}
 
 		// Create request
-		req, err := http.NewRequest("POST", "http://localhost:8080/createsite", bytes.NewBuffer(jsonData))
+		req, err := http.NewRequest("POST", "https://filesharingcli-production.up.railway.app/createsite", bytes.NewBuffer(jsonData))
 		if err != nil {
 			return fmt.Errorf("error creating request: %v", err)
 		}
