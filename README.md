@@ -2,8 +2,7 @@
 
 <img src="https://socialify.git.ci/kunal697/cshare/image?custom_description=A+modern+terminal-based+file+sharing+application+with+an+intuitive+interface.&description=1&language=1&name=1&owner=1&pattern=Solid&stargazers=1&theme=Dark" alt="cshare" width="640" height="320" />
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Pk5-niWJn6U" frameborder="0" allowfullscreen></iframe>
-
+[![Watch the demo](https://img.youtube.com/vi/Pk5-niWJn6U/0.jpg)](https://www.youtube.com/watch?v=Pk5-niWJn6U)
 
 ## Features
 
